@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Deendayal_search')
 API_ID = int(environ.get('API_ID', '21600420'))
 API_HASH = environ.get('API_HASH', 'facf5d11a09cc5f4c25a27721e0a137f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7739586544:AAGi1FhyQ4n6oEKxUvMFrnpINxZQ4bAXdkM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7739586544:AAH_g2xQL-OIKhSpNrlA0YTuc0wh7BqVs9c")
 
 # ============================
 # Bot Settings Configuration
@@ -61,10 +61,10 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kannadacinema:Kannadacinema@cluster0.kjdiquf.mongodb.net/?appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "ravikumar1cn")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Kannada Cinema World')
 
 # ============================
 # Movie Notification & Update Settings
@@ -84,7 +84,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/dreamcinezone')  # Ho
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/dreamcinezone')  # Tutorial video link for opening shortlink website
@@ -96,7 +96,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+LEBoz8OBWTc4ZDBl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+cjh8HiYXq80wMTI1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/KCW_Admin_Bot')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/dreamcinezone')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+cjh8HiYXq80wMTI1')
 OWNERID = int(os.environ.get('OWNERID', '1234567890'))  # Replace with the actual admin ID
 
 # ============================
