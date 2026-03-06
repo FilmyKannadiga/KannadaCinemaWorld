@@ -5,7 +5,18 @@ class script(object):
     
     HELP_TXT = """<b>🚩 ಜೈ ಶ್ರೀರಾಮ್🚩\n\nʜᴇʏ {},
     
-<blockquote>🎬 MOVIE SEARCH METHOD / ಸಿನಿಮಾ ಹುಡುಕುವ ವಿಧಾನ 🎬<blockquote> /n/n 👉 To search for a movie, just type the movie name correctly in the group. /n📌 Example: /n✅ Kantara Kannada /n✅ KGF Chapter 2 Hindi /n ✅ Pushpa Telugu /n/n 🚫 Don’t type like this: /n❌ Kantara movie link please bro /n ❌ Send Kantara movie /n/n<blockquote>🤖 The bot will automatically search and send the movie if available.<blockquote>
+<b>🎬 ಸಿನಿಮಾ ಹುಡುಕಲು, ಚಿತ್ರದ ಹೆಸರನ್ನು ಸರಿಯಾಗಿ ಟೈಪ್ ಮಾಡಿ ಗ್ರೂಪ್‌ನಲ್ಲಿ ಕಳುಹಿಸಿ.</b>
+
+📌 <b>ಉದಾಹರಣೆ:</b>  
+✅ Kantara Kannada  
+✅ KGF Chapter 2 Hindi  
+✅ Pushpa Telugu  
+
+🚫 <b>ಹೀಗೆ ಬರೆಯಬೇಡಿ:</b>  
+❌ Kantara movie link pls bro  
+❌ Send Kantara movie  
+
+🤖 <b>ಬಾಟ್ ನಿಮ್ಮ ಕೇಳಿದ ಸಿನಿಮಾವನ್ನು ಹುಡುಕಿ ದೊರೆತರೆ ತಕ್ಷಣ ಕಳುಹಿಸುತ್ತದೆ.</b>
 </b>"""
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
