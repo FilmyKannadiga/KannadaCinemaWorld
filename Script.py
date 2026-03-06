@@ -282,7 +282,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Kannada_Cinema_World">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/Kannada_Cinema_World>[KannadaCinemaWorld]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/Kannada_Cinema_World">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Kannada_Cinema_World>[KannadaCinemaWorld]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
