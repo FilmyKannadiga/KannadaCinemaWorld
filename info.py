@@ -61,9 +61,9 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kannadacinema:Kannadacinema@cluster0.kjdiquf.mongodb.net/?appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Kannadacinema:Kannadacinema@cluster0.kjdiquf.mongodb.net/?appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ravikumar1cn")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://naveenkannadiga:Cinikannadiga@cluster0.tbygurl.mongodb.net/?appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://naveenkannadiga:Cinikannadiga@cluster0.tbygurl.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "naveenkannadiga")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Kannada Cinema World')
 
 # ============================
