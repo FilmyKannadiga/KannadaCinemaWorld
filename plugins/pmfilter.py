@@ -80,6 +80,8 @@ async def get_shortlink(url):
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
+    if re.search(r'https?://|www\.|t\.me/|@\w+|\.(com|org|net|in|xyz|tk|ml)', message.text.lower()):
+        return
     if EMOJI_MODE:
         await message.react(emoji=random.choice(REACTIONS), big=True)
     await mdb.update_top_messages(message.from_user.id, message.text)
