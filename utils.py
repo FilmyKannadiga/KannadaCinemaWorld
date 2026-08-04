@@ -600,7 +600,7 @@ async def get_verify_shorted_link(link):
             logger.error(e)
             return f'https://{URL}/shortLink?token={API}&format=json&link={link}'
     else:
-        url = f'https://{URL}/.join(f'{elem}, ' for elem in k)
+        url = f'https://{URL}/' + ', '.join(f'{elem}' for elem in k)
     else:
         return ' '.join(f'{elem}, ' for elem in k)
 
