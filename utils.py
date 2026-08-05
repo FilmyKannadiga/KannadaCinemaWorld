@@ -602,7 +602,7 @@ async def get_verify_shorted_link(link):
     else:
         url = f'https://{URL}/api'
         params = {'api': API,
-            '.join(f'{elem}, ' for elem in k)
+            ', '.join(str(elem) for elem in k)
     else:
         return ' '.join(f'{elem}, ' for elem in k)
 
